@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Dia 2</title>
+    <link rel="stylesheet" href="dia2.css">
+</head>
+<body class = "pagina">
+    <script>
+        const nomeUsuario = prompt("Qual é o seu nome?");
+        const idadeUsuario = prompt("Quantos anos você tem?");
+        const linguagemUsuario = prompt("Qual linguagem de programação vocês está estudando?");
+
+        document.write("Olá " + nomeUsuario + ", você tem " + idadeUsuario + " anos e ja esta aprendendo " + linguagemUsuario + ".");
+        
+
+        const perguntaAdicional = prompt("Você gosta de estudar javaScript? Digite 1 para SIM ou 2 para NÃO");
+
+        if( perguntaAdicional == 1){
+            document.write("Muito bom, continue estudando e terá muito sucesso");
+
+        }
+        if(perguntaAdicional ==2){
+            document.write("Ah, que pena.Você ja tentou alguma outra linguagem ?");
+
+        }
+    </script>
+    
+</body>
+</html>
